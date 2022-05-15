@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borç Defteri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&
+display=swap" rel="stylesheet">
+<link rel="stylesheet" href="borc_defteri.css">
+</head>
+<body>
+    
+   
+   <header class="header" >
+       <h1 class="main-title">
+        Borç Defteri
+        <center>
+         <img class="defter" src="notebook.png" width="70"  alt="">
+      </center>
+       </h1>
+   </header>
+
+    <form class="borc-form" action="#">
+    <input type="text" class="form-item input-borc" placeholder="Borç Giriniz.">
+    <button class="form-item btn-borc-ekle" type="submit">
+      <i class="fas fa-plus-square"></i>
+    </button>
+    </form>
+    
+    <div class="borc-container">
+        <ul class="borc-listesi">
+            
+
+        </ul>
+    </div>
+
+    <script src="borc_defteri.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+:root {
+    --main-color: rgba(12, 36, 97,1.0);
+    --main-color-light: rgba(12, 36, 97,0.5);
+    --accent-color: rgba(30, 55, 153,1.0);
+    --accent-color-light: rgba(30, 55, 153,0.5);
+    --main-colorr: rgba(192, 57, 43,1.0);
+    --color: rgba(46, 204, 113,1.0);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom right, var(--main-color), var(--accent-color));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.main-title{
+    font-size: 2rem;
+    color: white;
+}
+
+.defter {
+    margin:.9rem
+}
+
+.header, .borc-form {
+    min-height: 20vh;
+    margin:.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item{
+    padding:.5rem;
+    font-size:1.5rem;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+
+.btn-borc-ekle{
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.btn-borc-ekle:hover{
+  color: var(--main-colorr);
+}
+
+.borc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borc-listesi {
+    list-style: none;
+    min-width: 60%;
+}
+
+.borc-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.2rem;
+    background-color: white;
+    transition:.5s ease-in-out;
+}
+.borc-tanim{
+  flex:1;
+  padding: 1rem;
+}
+.borc-btn {
+    background-color: var(--accent-color-light);
+    outline: none;
+    border: none;
+    font-size:1.2rem;
+    padding: 1.2rem;
+    color: white;
+}
+.borc-btn-sil{
+    background-color: rgb(226, 95, 95);
+}
+
+.borc-btn-odendi {
+    background-color: rgb(86, 194, 86);
+}
+
+.borc-odendi {
+    text-decoration: line-through;
+    opacity: 0.5;
+    background-color: ;
+}
+
+.far {
+    pointer-events: none;
+}
+.kaybol {
+    transform: scale(0);
+}
